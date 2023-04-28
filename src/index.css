@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.App{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(214,253,45,1) 100%);
+width: 100%;
+height: 100vh;
+}
+.App1{
+  width: 400px;
+
+position: absolute;
+bottom: 150px;
+left: 100px;
+background-color: blueviolet;
+
+line-height: 40px;
+border-radius: 20px;
+}
+.App2{
+  width: 400px;
+  
+position: absolute;
+right: 100px;
+bottom: 150px;
+color: white;
+background-color: blueviolet;
+
+line-height: 40px;
+border-radius: 20px;
+}
+button{
+  margin: 60px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: transparent;
+}
+button:hover{
+  background-color: aqua;
+  transition: 1s;
+  cursor: pointer;
+}
